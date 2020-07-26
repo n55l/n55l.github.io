@@ -13,7 +13,7 @@ disqus_username: Gina Lee
 show_hero: true
 menu:
   - title: Home
-    url: /
+    url: "https://n55lee.github.io/"
   - title: About
     url: /about
   - title: Contact
