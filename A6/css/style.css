@@ -1,0 +1,56 @@
+
+
+.hidden {
+    display: none
+}
+
+.background {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+/* Centered content */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+/* Time display styling */
+.time {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Quotes section styling */
+#quotes {
+    position: absolute;
+    bottom: 20px; /* Distance from the bottom */
+    left: 50%; /* Move the element horizontally to the center */
+    transform: translateX(-50%); /* Offset by 50% of its own width */
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#quotes span {
+    opacity: 0.8;
+    animation: fadeIn 2s ease-in-out;
+}
+
+#weather {
+    color: #ffffff;
+}
